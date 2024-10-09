@@ -3,7 +3,7 @@ body {
     background: linear-gradient(to right, #ffecd2, #fcb69f);
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 28px;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 24px;
+    font-size: 38px;
 }
 
 main {
@@ -21,7 +21,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 table {
@@ -29,7 +29,7 @@ table {
     border-collapse: collapse;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+    font-size: 28px;
 }
 
 table, th, td {
@@ -37,7 +37,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 12px;
+    padding: 22px;
     text-align: left;
 }
 
@@ -46,22 +46,17 @@ th {
 }
 
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-}
-
-img:hover {
-    transform: scale(1.05);
 }
 
 a {
     color: #ff7e5f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 a:hover {
@@ -71,13 +66,13 @@ a:hover {
 ul {
     list-style-type: none;
     padding: 0;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 ul li {
     background-color: #f9f9f9;
     margin: 5px 0;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -85,7 +80,7 @@ ul li {
 
 form {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 label {
@@ -96,23 +91,24 @@ label {
 
 input[type="text"] {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+    font-size: 28px;
 }
 
 input[type="submit"] {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
-    padding: 10px 20px;
+    padding: 30px 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 18px;
+    font-size: 30px;
+    text-align: center;
 }
 
 input[type="submit"]:hover {
@@ -122,6 +118,6 @@ input[type="submit"]:hover {
 span {
     display: block;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 30px;
     color: #555;
 }
